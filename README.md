@@ -25,7 +25,7 @@ On the Buttons PCB  | On the InkPlate Board
 
 - The buttons' pc-board must be of a standard height (1.6 mm). This to ensure proper spacing for the buttons. The board must be 'glued' at the bottom of the main casing using two-sided scotch tape. An alternative would be using a very small amount of hot glue on the 4 corners on the top of the buttons' pc-board. This is to permit easy removal in case of problems.
 
-The original licensing from e-Radionica remains GPL-3 for their design and all supplied files in this project.
+The original licensing from e-Radionica remains GPL-3 for their design as well as all supplied files in this project.
 
 <img src="Pictures/Inkplate_6_With_Mechanical_Buttons.png" alt="picture" width="600"/>
 <img src="Pictures/Bottom_Case_With_Buttons_Board.png" alt="picture" width="300"/><img src="Pictures/Buttons 3D View.png" alt="picture" width="300"/>
