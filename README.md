@@ -4,7 +4,7 @@ This is a change to the current InkPlate-6 case to add a small electronic board 
 
 - For the STL, dimensions are in millimeters. 
 - Six buttons must be printed as well as the top and bottom casing.
-- The connection with the MCU23017 is done using wirewrap wires that are soldered using the following configuration (beware that some numbers are inverted):
+- The connection with the MCU23017 is done using wirewrap wires that are soldered at both ends using the following configuration (beware that some numbers are inverted):
 
 ```
 On the Buttons PCB  | On the InkPlate Board
