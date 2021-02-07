@@ -4,19 +4,20 @@ This is a change to the current InkPlate-6 case to add a small electronic board 
 
 - For the STL, dimensions are in millimeters. 
 - Six buttons must be printed as well as the top and bottom casing.
-- The connection with the MCU23017 is done using wirewrap wires (or a flat cable) that are soldered at both ends using the following configuration (beware that some numbers are inverted):
+- The connection with the MCU23017 is done using wirewrap wires (or a flat cable) that are soldered at both ends using the following configuration (beware that the corresponding buttons numbers are inverted in the sequence):
 
 ```
-On the Buttons PCB  | On the InkPlate Board
---------------------+----------------------
-                    |
-     Pin 1          |       GND           
-     Pin 2          |       GPB2           
-     Pin 3          |       GPB4
-     Pin 4          |       GPB3
-     Pin 5          |       GPB5
-     Pin 6          |       GPB7
-     Pin 7          |       GPB6
+   On the   |     On the     | Corresponding 
+Buttons PCB | InkPlate Board |    Button
+------------+----------------+---------------
+            |                |
+   Pin 1    |      GND       |
+   Pin 2    |      GPB2      |      U6
+   Pin 3    |      GPB3      |      U3
+   Pin 4    |      GPB4      |      U5
+   Pin 5    |      GPB5      |      U1
+   Pin 6    |      GPB6      |      U4
+   Pin 7    |      GPB7      |      U2
 ```
 
 - The three touch pads must be disabled, the corresponding signals from the MCU23017 are diverted to the GPBx pin holes on the pc-board. This is done by desoldering the current jumpers and soldering them back on the other side. They are located under the following labeling on the board: "Touch pads".
