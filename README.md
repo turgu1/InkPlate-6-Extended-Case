@@ -4,7 +4,7 @@ This is a change to the current InkPlate-6 case to add a small electronic board 
 
 - For the STL, dimensions are in millimeters. 
 - Six buttons must be printed as well as the top and bottom casing.
-- The connection with the MCU23017 is done using wirewrap wires that are soldered at both ends using the following configuration (beware that some numbers are inverted):
+- The connection with the MCU23017 is done using wirewrap wires (or a flat cable) that are soldered at both ends using the following configuration (beware that some numbers are inverted):
 
 ```
 On the Buttons PCB  | On the InkPlate Board
@@ -19,11 +19,11 @@ On the Buttons PCB  | On the InkPlate Board
      Pin 7          |       GPB6
 ```
 
-- The three tactical pads must be disabled, the corresponding signals from the MCU23017 are diverted to the GPBx pin holes on the pc-board. This is done by desoldering the current jumpers and soldering them back on the other side. They are located under the following labeling on the board: "Touch pads".
+- The three touch pads must be disabled, the corresponding signals from the MCU23017 are diverted to the GPBx pin holes on the pc-board. This is done by desoldering the current jumpers and soldering them back on the other side. They are located under the following labeling on the board: "Touch pads".
 
 - The corresponding GPIOB I/O bits corresponding to the GPB2-7 pins of the MCU23017 must have their internal pull-up resistor enabled.
 
-- The buttons' pc-board must be of a standard height (1.6 mm). This to ensure proper spacing for the buttons. The board must be 'glued' at the bottom of the main casing using two-sided scotch tape. An alternative would be using a very small amount of hot glue on the 4 corners on the top of the buttons' pc-board. This is to permit easy removal in case of problems.
+- The buttons' pc-board must be of a standard height (1.6 mm). This to ensure proper spacing for the buttons. The board must be 'glued' at the bottom of the main casing using two-sided scotch tape. An alternative would be using a very small amount of hot glue on the 4 corners on the top of the buttons' pc-board. This is to permit easy removal in case of problems. The buttons part number is C&K PTS526 SK15 SMTR2 LFS 5x5x1.5 mm. They are very common (Mouser part # 611-PTS526SMG15SMR2L).
 
 The original licensing from e-Radionica remains GPL-3 for their design as well as all supplied files in this project.
 
