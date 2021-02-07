@@ -20,7 +20,7 @@ Buttons PCB | InkPlate Board |    Button
    Pin 7    |      GPB7      |      U2
 ```
 
-- The three touch pads must be disabled, the corresponding signals from the MCU23017 are diverted to the GPBx pin holes on the pc-board. This is done by desoldering the current jumpers and soldering them back on the other side. They are located under the following labeling on the board: "Touch pads".
+- The three touch pads on the InkPate-6 pc-board must be disabled, the corresponding signals from the MCU23017 are diverted to the GPBx pin holes on the pc-board. This is done by desoldering the current jumpers and soldering them back on the other side. They are located under the following labeling on the board: "Touch pads".
 - The corresponding GPIOB I/O bits corresponding to the GPB2-7 pins of the MCU23017 must have their internal pull-up resistor enabled.
 - The buttons' pc-board must be of a standard height (1.6 mm). This to ensure proper spacing for the buttons. The board must be 'glued' at the bottom of the main casing using two-sided scotch tape. An alternative would be using a very small amount of hot glue on the 4 corners on the top of the buttons' pc-board. This is to permit easy removal in case of problems. The buttons part number is C&K PTS526 SK15 SMTR2 LFS 5.2x5.2x1.5 mm. They are very common (For exemple, Mouser part # 611-PTS526SK15SMR2L, Digikey Part # CKN12221-1-ND, or other manufacturers).
 
