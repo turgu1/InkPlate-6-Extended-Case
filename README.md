@@ -3,7 +3,7 @@
 This is a change to the current InkPlate-6 case to add a small electronic board with push buttons below the mainboard. To do it, I took the original design from e-Radionica and extended a side of it, so the original portion of the case remains unchanged. The `Mechanical CAD` folder contains the complete STEP format design as well as the STL files ready for 3D printing. The `Electronics` folder contains the Gerber files for the preparation of the pc-board, as well as the schematic in PDF. I have used **OnShape** and **KiCAD** to complete this project.
 
 - For the STL files, dimensions are in millimeters. 
-- Six buttons must be printed as well as the top and bottom casing.
+- Six buttons must be printed as well as the top and bottom casing. The buttons may have to be adjusted in size depending on the 3D printing results.
 - The connection with the MCU23017 is done using wirewrap wires (or a flat cable) that are soldered at both ends using the following configuration (beware that the corresponding buttons numbers are inverted in the sequence):
 
 ```
